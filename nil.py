@@ -1,7 +1,13 @@
-from easygui import *
-import sys
-while 1:
-    msgbox("Hello, customer")
+#title-e-commerce website
+#Nilay Pedram
+#M-45
+
+
+
+from easygui import *                                   #importing the library from easy gui
+import sys                                              
+while 1:                                                
+    msgbox("Hello, customer")                           #using the tools boxes from gui library(msgbox,choice box,etc.)
     msg ="Choose your website"
     title = "Online shopping"
     choices = ["Amazon", "Flipkart", "Myntra"]
